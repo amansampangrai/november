@@ -1,4 +1,17 @@
-# make a calculator.
+# Make a calculator.
+name = input("Enter your name ")
+while name.isalpha()==False or len(name)<3:
+    name=input('Wrong !!!! Enter again')
+age = input("Enter your age")
+while age.isdigit()==False or int(age)<18 or int(age)>120 :
+    age=input("Input your correct age ")
+mobile = input("Enter your mobile number ")
+while len(mobile) != 10 or mobile.isalpha == True:
+    mobile = input("Enter correct mobile number ")
+password=input("Enter the password to use calculator..!")
+while password != "aman":
+    password = input("Enter the correct password")
+print("Welcome to the calculator...!")
 print("Select Operation")
 print("1.Addition")
 print("2.Subtraction")
