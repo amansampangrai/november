@@ -45,3 +45,41 @@ print("aman")'''
 
 print("\n\nRecursion Example Results")
 tri_recursion(6)'''
+
+
+#python lambda
+
+'''x = lambda a : a + 10
+print(x(5))'''
+
+'''x=lambda a,b : a*b
+print(x(4,5))'''
+
+'''x=lambda a,b,c:a*b*c
+print(x(4,5,6))'''
+
+'''def myfunc(n):
+  return lambda a : a * n '''
+
+'''def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(2)
+
+print(mydoubler(11))'''
+
+'''def fun(n):
+    return lambda a : a*n
+mytripler = fun(3)
+print(mytripler(11))'''
+
+
+
+#python arrays
+
+'''name=["aman","bibek","milan"]
+print(name)'''
+
+x=cars[0]
+cars[0]="toyota"
+print(x)
