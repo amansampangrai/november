@@ -49,7 +49,7 @@ def calc2():
     def sqrt():
         num1=int(input("Enter number to find square"))
         print("The square of %s is %s" %(num1,num1**0.5))
-        again=input("If you want to do agin then type yes or type any to go to calculator")
+        again=input("If you want to do again then type yes or type any to go to calculator")
         while again==("yes"):
             sqrt()
         else:
@@ -67,8 +67,9 @@ def calc2():
         sqrt()
     if choice==("square"):
         square()
-select=input("Enter 1 for simple calculator and 2 for advanced calculator")
-if select==("1"):
-    calc()
-if select==("2"):
-    calc2()
+if __name__=='__main__':
+    select=input("Enter 1 for simple calculator and 2 for advanced calculator")
+    if select==("1"):
+        calc()
+    if select==("2"):
+        calc2()

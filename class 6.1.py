@@ -40,8 +40,8 @@ while text!='exit':
 print("your document is saving")
 file.close()'''
 
-file=open('aman1.txt','w')
+'''file=open('aman1.txt','w')
 file.writelines("aeroplane")
 file.seek(1)
 file.writelines("lion")
-file.close()
+file.close()'''
